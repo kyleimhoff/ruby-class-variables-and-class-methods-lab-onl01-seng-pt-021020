@@ -16,8 +16,8 @@ class Song
     @@count += 1 
   end
   
-  def artist(artist)
-    @@artist << artist
+  def artist
+    
   end
     
   
