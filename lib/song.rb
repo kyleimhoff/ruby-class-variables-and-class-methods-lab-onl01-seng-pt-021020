@@ -18,18 +18,15 @@ class Song
   def self.count 
     @@count += 1 
   end
-  def self.name
-    
-    @@name.uniq
-  end
+  
   
   def self.artist
    
-    @@artist.uniq
+    @@artist.uniq!
   end
   def self.genre 
     
-    @@genre.uniq
+    @@genre.uniq!
   end
   def self.count
     @@count
