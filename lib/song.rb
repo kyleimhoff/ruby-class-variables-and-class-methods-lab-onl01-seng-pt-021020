@@ -17,14 +17,16 @@ class Song
   end
   def self.name
     @@name << name
+    @@name
   end
   
   def self.artist
     @@artist << artist
-    
+    @@artist
   end
   def self.genre 
     @@genre << genre
+    @@genre
   end
   def self.count
     @@count
