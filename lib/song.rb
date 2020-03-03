@@ -33,7 +33,7 @@ class Song
   end
   def genre_count
     genre_count = {}
-    if genre_count[genre]
+    @@genre.each do |
   
     
   
