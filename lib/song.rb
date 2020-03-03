@@ -31,6 +31,8 @@ class Song
   def self.count
     @@count
   end
+  def genre_count
+    genre_count = 
   
     
   
